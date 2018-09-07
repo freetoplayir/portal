@@ -30,19 +30,6 @@
     }
   },
   "image": "heroku/php",
-  "addons": [
-    "",
-    {
-      "plan": "",
-      "as": ""
-    },
-    {
-      "plan": "",
-      "options": {
-        "version": ""
-      }
-    }
-  ],
   "buildpacks": [
     {
       "url": "https://github.com/heroku/heroku-buildpack-php"
