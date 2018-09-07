@@ -23,12 +23,6 @@
       "value": "5"
     }
   },
-  "formation": {
-    "web": {
-      "quantity": 2,
-      "size": "Performance-M"
-    }
-  },
   "image": "heroku/php",
   "buildpacks": [
     {
