@@ -4,4 +4,5 @@
   "repository": "https://github.com/freetoplayir/stream",
   "logo": "https://freetoplayir.github.io/stream/logo.png",
   "keywords": ["html", "css", "js"]
+  "buildpacks": "https://github.com/heroku/heroku-buildpack-php"
 }
