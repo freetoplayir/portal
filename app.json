@@ -9,7 +9,6 @@
   "website": "http://freetoplay.ir/",
   "repository": "https://github.com/freetoplayir/stream",
   "logo": "https://freetoplayir.github.io/stream/logo.png",
-  "success_url": "/stream",
   "env": {
     "SECRET_TOKEN": {
       "description": "A secret key for verifying the integrity of signed cookies.",
