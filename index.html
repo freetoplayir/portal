@@ -1,0 +1,73 @@
+<html lang="en" class="no-js">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1.0">
+      <style>
+      html body {width: 100%;height: 100%;padding: 0px;margin: 0px;overflow: hidden;font-family: arial;font-size: 10px;color: #6e6e6e;background-color: #000;} #preview-frame {width: 100%;background-color: #fff;}</style>
+      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+      <script>
+         //function to fix height of iframe!
+         var calcHeight = function() {
+           //var headerDimensions = 0; //$('#header-bar').height();
+           $('#preview-frame').height($(window).height());
+         }
+         
+         $(document).ready(function() {
+           calcHeight();
+           /*$('#header-bar a.close').mouseover(function() {
+             $('#header-bar a.close').addClass('activated');
+           }).mouseout(function() {
+             $('#header-bar a.close').removeClass('activated');
+           });*/
+         }); 
+         
+         $(window).resize(function() {
+           calcHeight();
+         }).load(function() {
+           calcHeight();
+         });
+      </script>
+	  	<style>
+		body{
+			margin:0px;
+			padding:0px;
+		}
+		.leftframe{
+			border:0px;
+			position:fixed;
+			z-index:9999;
+			bottom:30px;
+			right:100px;
+			width:300px;
+			height:200px;
+		}
+		.iframelayer{
+			border:0px;
+			position:fixed;
+			z-index:10000;
+			bottom:30px;
+			right:100px;
+			width:300px;
+			height:200px;
+			
+		}
+		.leftimage{
+			border:0px;
+			position:fixed;
+			z-index:9999;
+			bottom:60px;
+			left:110px;
+			width:50px
+		}
+	</style>
+   </head>
+   <body>
+      <iframe id="preview-frame" src="https://player.twitch.tv/?channel=treckie&html5" name="preview-frame" frameborder="0" noresize="noresize" style="height: 902px;">
+      </iframe>
+	  
+	  		<iframe id="myFrame" frameBorder="0" class=leftframe src="https://reymit.ir/overlay/?key=M2VmYzQ1MTAwYTAxNTU2M05NM0prb0FzU2RPWHJhditjRlpmK0drK281a3l6YnZhYWlNUm8xQkZndnEyamYvL2tlUEd3cGE2OEhmTlpxWHM%3D"></iframe>
+		<a href="https://reymit.ir/freetoplay" class=iframelayer></a>
+		<a href='https://telegram.me/telegruum'><img class=leftimage src="https://static-cdn.jtvnw.net/jtv_user_pictures/jordan94600-profile_image-b452013d8138bb11-300x300.png";></a>
+	  
+   </body>
+</html>
