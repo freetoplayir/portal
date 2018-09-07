@@ -1,0 +1,7 @@
+{
+  "name": "freetoplay.ir clone mirror",
+  "description": "A Clone Build Of freetoplay.ir",
+  "repository": "https://github.com/freetoplayir/stream",
+  "logo": "https://freetoplayir.github.io/stream/logo.png",
+  "keywords": ["html", "css", "js"]
+}
